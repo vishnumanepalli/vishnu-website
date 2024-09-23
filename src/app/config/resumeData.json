@@ -1,0 +1,120 @@
+{
+  "personalInfo": {
+    "name": "Naga Sai Manikya Sri Vishnu Manepalli",
+    "short_name": "Vishnu Manepalli",
+    "phone": "+91-9515997566",
+    "email": "vishnumanepalli129@gmail.com",
+    "github": "https://github.com/vishnumanepalli",
+    "website": "Website",
+    "linkedin": "https://www.linkedin.com/in/sri-vishnu-manepalli/"
+  },
+  "about": {
+    "description": "I am a passionate and dedicated Computer Science Engineering student at the Indian Institute of Technology, Ropar. I am enthusiastic about software development and have a keen interest in backend development, system testing, and deployment. I am adept at leveraging my skills in Java, Spring Boot, MySQL, and RESTful WebServices to deliver high-quality projects. I am a quick learner and a team player, with a strong work ethic and a commitment to achieving project goals. I am seeking opportunities to further enhance my skills and contribute to the growth of an innovative organization.",
+    "image": "/images/profile/vishnu.jpg",
+    "residence": "Hyderabad, India",
+    "hobbies": "Playing Chess, Reading Books, Watching Movies, Listening to Music",
+    "languages": "English, Telugu, Hindi",
+    "interests": "Backend Development, System Testing, Deployment",
+    "skills": "Java, Spring Boot, MySQL, RESTful WebServices, gRPC, System Testing, Deployment",
+    "resume_link": "Resume"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "institute": "Indian Institute of Technology, Ropar",
+      "cgpa": "7.74 (Till 7th Sem)",
+      "year": "2020-2024",
+      "image": "/images/education/iitrpr.jpg"
+    },
+    {
+      "degree": "Senior Secondary",
+      "institute": "Board of Intermediate Education,Andhra Pradesh",
+      "cgpa": "9.88",
+      "year": "2020",
+      "image": "/images/education/bieap.jpg"
+    },
+    {
+      "degree": "Secondary",
+      "institute": "Board of Secondary Education, Andhra Pradesh",
+      "cgpa": "10",
+      "year": "2018",
+      "image": "/images/education/bseap.webp"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Development Internship",
+      "company": "Nurture Farm",
+      "location": "Bengaluru, India",
+      "duration": "Jun 2023 - Nov 2023",
+      "website": "Website",
+      "responsibilities": [
+        "Pioneered the migration from Monolithic architecture to gRPC Microservices, elevating scalability and system performance.",
+        "Enabled the integration with third-party systems, implementing reward structures upon users' successful completion of milestones set by the business team.",
+        "Led the deprecation of Rest APIs and conducted comprehensive code cleanups, culminating in reduced build times and an optimized, maintainable codebase.",
+        "Managed Database operations meticulously, ensuring data consistency and enforcing essential constraints for robust data integrity.",
+        "Proficiently resolved debugging challenges identified by QA, enhancing product quality through systematic testing.",
+        "Leveraged expertise in REST APIs, debugging, Gitlab, Jira, IntelliJ Git, Kubernetes, Microservices, Backend Development, MySQL, Java, Spring Boot, gRPC, and System Testing to successfully achieve project goals."
+      ],
+      "images": "/images/experience/nurturefarm.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Development Engineering Project",
+      "duration": "Jan 2023 - May 2023",
+      "category": "Web Development",
+      "github": "Github",
+      "description": "Executed a web-based platform dedicated to managing and monitoring research and development grants. Designed for the exclusive use of the RnD grants division at IIT Ropar.",
+      "skills": "PostgreSQL, Express, React, Node.js for Architecture and Render for deployment"
+    },
+    {
+      "name": "Student Academic Portal",
+      "duration": "Jan 2023 - Feb 2023",
+      "category": "Database management",
+      "github": "Github",
+      "description": "Implemented a sophisticated multi-user command-line interface database application to optimize academic management within an educational institution. Developed the application using Java and PostgreSQL, skillfully integrating real-world functionalities for enhanced academic operations."
+    },
+    {
+      "name": "Railway Reservation System",
+      "duration": "Oct 2022 - Nov 2022",
+      "category": "Database Management System",
+      "github": "GitHub",
+      "description": "Designed and developed a Java-based railway reservation system with a PostgreSQL database. Implemented multi-threading for efficient train booking and search operations, ensuring smooth execution within the designated schedule."
+    },
+    {
+      "name": "Cucu Compiler Design",
+      "duration": "Mar 2022 - Apr 2022",
+      "category": "Programming Paradigms and Pragmatics",
+      "github": "GitHub",
+      "description": "Collaboratively designed and developed the CUCU (Compiler U Can Understand) compiler for a simplified C language. Utilized Flex and Bison, enabling the identification of lexical and syntactical errors."
+    },
+    {
+      "name": "Car Parking System",
+      "duration": "Oct 2021 - Dec 2021",
+      "category": "Digital Logic and Design",
+      "github": "GitHub",
+      "description": "Developed a digital logic project focusing on car parking management and monitoring in high-traffic areas, enabling users to conveniently check parking vacancies. Utilized skills in Verilog and applied digital logic design principles."
+    }
+  ],
+  "technicalSkills": {
+    "programmingLanguages": "C, C++, Java, SpringBoot, Python, React, Mern Stack, PostgreSQL, MySQL and basics in Perl, Verilog, RISCV",
+    "tools": "Git, PostMan, IntelliJ, Dbeaver, Jenkins, Kubernetes, Google Colab",
+    "programmingSkills": "Design Patterns, Code Smells, Web Development, OOP's, DSA, Git, Kubernetes, Microservices, Back-End Web Development, Relational Databases, Java, Spring Boot, MySQL, RESTful WebServices, gRPC, System Testing, Deployment"
+  },
+  "keyCourses": {
+    "cse": "Discrete Mathematics, Data Structure & Algorithms, Digital Logic Design, Programming Paradigms & Pragmatics, Computer Architecture, Computer Networks, Software Engineering",
+    "mathematics": "Linear Algebra, Calculus, Probability, Statistics",
+    "others": "Economics, Tinkering Lab,Workshop, Professional English Communication"
+  },
+  "achievements": [
+    {
+      "description": "Acheived 3523 open rank in JEE ADVANCED conducted by IIT Delhi in sep 2020.",
+      "year": "2020"
+    },
+    {
+      "description": "Acheived 13903 open rank in JEE MAINS conducted by NTA in sep 2020.",
+      "year": "2020"
+    }
+  ]
+}

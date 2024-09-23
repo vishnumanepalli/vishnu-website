@@ -4,8 +4,10 @@ import Footer from './components/Footer';
 import TableOfContents from './components/TableOfContents';
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
-import Companies from './components/Companies';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
+import TechnicalSkills from './components/TechnicalSkills';
+import resumeData from './config/resumeData.json';
 
 export default function Home() {
   return (
@@ -14,17 +16,21 @@ export default function Home() {
 
       <main className="py-8">
         <h1 className="text-4xl font-bold mb-8">
-          Welcome to My Personal Website
+          Welcome to {resumeData.personalInfo.short_name}'s Personal Website
         </h1>
 
         <TableOfContents />
-        <AboutMe />
-        <Education />
-        <Companies />
-        <Experience />
+        <AboutMe
+          about={resumeData.about}
+          personalInfo={resumeData.personalInfo}
+        />
+        <Education education={resumeData.education} />
+        <Experience experience={resumeData.experience} />
+        <Projects projects={resumeData.projects} />
+        <TechnicalSkills skills={resumeData.technicalSkills} />
       </main>
 
-      <Footer />
+      <Footer personalInfo={resumeData.personalInfo} />
     </div>
   );
 }
