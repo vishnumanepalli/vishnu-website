@@ -1,7 +1,7 @@
 import React from 'react';
 
 const EducationImage = ({ image, alt }) => {
-  return <img src={image} alt={alt} className="object-contain" />;
+  return <Image src={image} alt={alt} className="object-contain" />;
 };
 
 export default function Education({ education }) {
