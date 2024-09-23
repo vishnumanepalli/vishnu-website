@@ -1,6 +1,6 @@
 // app/technical-skills/page.js
-import Link from 'next/link';
-import resumeData from '../config/resumeData.json';
+import Link from "next/link";
+import resumeData from "../config/resumeData.json";
 
 export default function TechnicalSkillsPage() {
   const { technicalSkills, keyCourses } = resumeData;

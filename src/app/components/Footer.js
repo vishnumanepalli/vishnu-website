@@ -1,5 +1,5 @@
 // app/components/Footer.js
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Footer({ personalInfo }) {
   return (
@@ -12,7 +12,7 @@ export default function Footer({ personalInfo }) {
             <p>{personalInfo.name}</p>
             <p>Phone: {personalInfo.phone}</p>
             <p>
-              Email:{' '}
+              Email:{" "}
               <a
                 href={`mailto:${personalInfo.email}`}
                 className="hover:underline"

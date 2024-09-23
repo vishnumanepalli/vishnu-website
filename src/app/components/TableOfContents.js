@@ -1,5 +1,5 @@
 // app/components/TableOfContents.js
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function TableOfContents() {
   return (

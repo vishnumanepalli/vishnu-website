@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const EducationImage = ({ image, alt }) => {
   return <Image src={image} alt={alt} className="object-contain" />;
@@ -13,7 +13,7 @@ export default function Education({ education }) {
           <div
             key={index}
             className="flex bg-white rounded-lg shadow-md overflow-hidden"
-          > 
+          >
             <div className="flex-grow p-6">
               <h3 className="text-xl font-semibold mb-2">{edu.degree}</h3>
               <p className="text-sm text-gray-600 mb-1">{edu.institute}</p>

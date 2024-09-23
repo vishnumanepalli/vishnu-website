@@ -1,5 +1,5 @@
 // app/components/Projects.js
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Projects({ projects }) {
   return (

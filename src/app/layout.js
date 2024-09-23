@@ -13,8 +13,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: 'My Personal Website',
-  description: 'My personal website built with Next.js',
+  title: "My Personal Website",
+  description: "My personal website built with Next.js",
 };
 
 export default function RootLayout({ children }) {
