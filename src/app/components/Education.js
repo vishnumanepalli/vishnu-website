@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const EducationImage = ({ image, alt }) => {
   return <Image src={image} alt={alt} className="object-contain" />;

@@ -16,7 +16,7 @@ export default function Home() {
 
       <main className="py-8">
         <h1 className="text-4xl font-bold mb-8">
-          Welcome to {resumeData.personalInfo.short_name}&apos;s Personal
+          Welcome to {resumeData.personalInfo.short_name} Personal
           Website
         </h1>
 
