@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vishnuwebsite-dev-ee129-authRole",
+      "UnauthRoleArn": "arn:aws:iam::590183778931:role/amplify-vishnuwebsite-dev-ee129-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::590183778931:role/amplify-vishnuwebsite-dev-ee129-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-vishnuwebsite-dev-ee129-deployment",
+      "UnauthRoleName": "amplify-vishnuwebsite-dev-ee129-unauthRole",
+      "StackName": "amplify-vishnuwebsite-dev-ee129",
+      "StackId": "arn:aws:cloudformation:us-east-1:590183778931:stack/amplify-vishnuwebsite-dev-ee129/df23e210-799a-11ef-89b8-126317c812ab",
+      "AmplifyAppId": "d3619vv3hfhpsz"
+    }
+  }
+}

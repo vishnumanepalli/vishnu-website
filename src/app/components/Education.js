@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 const EducationImage = ({ image, alt }) => {
-  return <Image src={image} alt={alt} className="object-contain" />;
+  return <Image src={image} alt={alt} width={100} height={100} className="object-contain" />;
 };
 
 export default function Education({ education }) {
