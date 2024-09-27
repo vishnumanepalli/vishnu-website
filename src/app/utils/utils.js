@@ -12,3 +12,4 @@ export const handleSmoothScroll = (targetId) => (e) => {
     });
   }
 };
+

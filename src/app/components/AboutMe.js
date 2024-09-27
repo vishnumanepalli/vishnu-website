@@ -1,34 +1,16 @@
 "use client";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import Image from "next/image";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
 import "./AboutMe.css";
-import { handleSmoothScroll } from "../utils/utils";
+import SectionTitle from "./sectionTitle";
 
 export default function AboutMe({ about, personalInfo }) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
     <section id="about" className="about-section">
-      <h2
-        className="about-title"
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-      >
-        <a href="#about" className="about-link" onClick={handleSmoothScroll}>
-          About Me
-          {isHovered && (
-            <FontAwesomeIcon
-              icon={faLink}
-              width="0.9em"
-              height="0.9em"
-              className={`about-link-icon ${isHovered ? "hovered" : ""}`}
-            />
-          )}
-        </a>
-      </h2>
+      <SectionTitle title="About Me" id="about" />
       <div className="about-content">
         <div className="about-image">
           <div className="image-wrapper">

@@ -13,7 +13,6 @@ const menuItems = [
   { href: "/technical-skills", label: "Technical Skills" },
 ];
 
-
 const MenuItem = ({ href, label }) => {
   const isHashLink = href.startsWith("/#");
   const targetId = isHashLink ? href.split("#")[1] : null;

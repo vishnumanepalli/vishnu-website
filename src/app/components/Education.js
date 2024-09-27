@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import SectionTitle from "./sectionTitle";
 
 const EducationImage = ({ image, alt }) => {
   return <Image src={image} alt={alt} width={100} height={100} className="object-contain" />;
@@ -8,7 +9,7 @@ const EducationImage = ({ image, alt }) => {
 export default function Education({ education }) {
   return (
     <section id="education" className="mb-8">
-      <h2 className="text-2xl font-bold mb-4">Education</h2>
+      <SectionTitle title="Education" id="education"/>
       <div className="grid grid-cols-1 gap-4">
         {education.map((edu, index) => (
           <div
