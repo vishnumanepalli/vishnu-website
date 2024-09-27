@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import "./AboutMe.css";
+import { handleSmoothScroll } from "../utils/utils";
 
 export default function AboutMe({ about, personalInfo }) {
   const [isHovered, setIsHovered] = useState(false);
@@ -16,7 +17,7 @@ export default function AboutMe({ about, personalInfo }) {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <a href="#about" className="about-link">
+        <a href="#about" className="about-link" onClick={handleSmoothScroll}>
           About Me
           {isHovered && (
             <FontAwesomeIcon

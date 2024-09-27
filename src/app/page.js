@@ -1,5 +1,7 @@
 // app/page.js
-import Navbar from "./components/Navbar";
+"use client"
+
+import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/Footer";
 import TableOfContents from "./components/TableOfContents";
 import AboutMe from "./components/AboutMe";
@@ -8,8 +10,15 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import TechnicalSkills from "./components/TechnicalSkills";
 import resumeData from "./config/resumeData.json";
+import { disableInspect } from "./utils/disable-inspect";
+import { useEffect } from "react";
 
 export default function Home() {
+  //   useEffect(() => {
+  //   if (typeof window !== "undefined") {
+  //     disableInspect();
+  //   }
+  // }, []);
   return (
     <div className="mx-auto px-4">
       <Navbar />
