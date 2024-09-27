@@ -1,10 +1,11 @@
 // app/components/TableOfContents.js
 import Link from "next/link";
+import SectionTitle from "./section/SectionTitle";
 
 export default function TableOfContents() {
   return (
     <section id="toc" className="mb-8">
-      <h2 className="text-2xl font-bold mb-4">Table of Contents</h2>
+      <SectionTitle title="Table of Contents" id="toc" />
       <ul className="list-disc pl-5">
         <li>
           <Link href="#about">About Me</Link>

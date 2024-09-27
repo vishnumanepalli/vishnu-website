@@ -4,7 +4,8 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
-import { handleSmoothScroll } from "../utils/utils";
+import { handleSmoothScroll } from "@/app/utils/utils";
+import "./style.css"
 
 export default function SectionTitle({ title, id }) {
   const [isHovered, setIsHovered] = useState(false);
@@ -20,7 +21,7 @@ export default function SectionTitle({ title, id }) {
         className="href-link"
         onClick={handleSmoothScroll(id)}
       >
-        {title}
+        {title} 
         {isHovered && (
           <FontAwesomeIcon
             icon={faLink}

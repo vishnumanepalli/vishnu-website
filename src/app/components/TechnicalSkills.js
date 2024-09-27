@@ -1,10 +1,11 @@
 // app/components/TechnicalSkills.js
 import Link from "next/link";
+import SectionTitle from "./section/SectionTitle";
 
 export default function TechnicalSkills({ skills }) {
   return (
     <section id="technical-skills" className="mb-8">
-      <h2 className="text-2xl font-bold mb-4">Technical Skills</h2>
+      <SectionTitle title="Technical Skills" id="technical-skills" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <h3 className="text-xl font-semibold mb-2">Programming Languages</h3>

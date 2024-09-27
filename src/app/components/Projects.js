@@ -1,10 +1,11 @@
 // app/components/Projects.js
 import Link from "next/link";
+import SectionTitle from "./section/SectionTitle";
 
 export default function Projects({ projects }) {
   return (
     <section id="projects" className="mb-8">
-      <h2 className="text-2xl font-bold mb-4">Projects</h2>
+      <SectionTitle title="Projects" id="projects" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projects.slice(0, 4).map((project, index) => (
           <div key={index} className="border p-4 rounded-lg shadow-md">

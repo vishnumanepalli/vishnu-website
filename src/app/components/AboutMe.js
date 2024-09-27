@@ -1,12 +1,9 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import "./AboutMe.css";
-import SectionTitle from "./sectionTitle";
+import SectionTitle from "./section/SectionTitle";
 
 export default function AboutMe({ about, personalInfo }) {
-  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <section id="about" className="about-section">
