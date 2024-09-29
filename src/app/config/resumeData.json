@@ -2,10 +2,10 @@
   "personalInfo": {
     "name": "Naga Sai Manikya Sri Vishnu Manepalli",
     "short_name": "Vishnu Manepalli",
-    "phone": "+91-9515997566",
+    "phone": "+91 9515997566",
     "email": "vishnumanepalli129@gmail.com",
     "github": "https://github.com/vishnumanepalli",
-    "website": "Website",
+    "website": "https://vishnu-manepalli-portfolio.vercel.app/",
     "linkedin": "https://www.linkedin.com/in/sri-vishnu-manepalli/"
   },
   "about": {
@@ -22,7 +22,7 @@
     {
       "degree": "Bachelor of Technology",
       "institute": "Indian Institute of Technology, Ropar",
-      "cgpa": "7.74 (Till 7th Sem)",
+      "cgpa": "7.69",
       "year": "2020-2024",
       "image": "/images/education/iitrpr.jpg"
     },
@@ -98,8 +98,8 @@
     }
   ],
   "technicalSkills": {
-    "programmingLanguages": "C, C++, Java, SpringBoot, Python, React, Mern Stack, PostgreSQL, MySQL and basics in Perl, Verilog, RISCV",
-    "tools": "Git, PostMan, IntelliJ, Dbeaver, Jenkins, Kubernetes, Google Colab",
+    "programmingLanguages": "C, C++, Java, SpringBoot, Python, FastAPI, React, Mern Stack, PostgreSQL, MySQL and basics in Perl, Verilog, RISCV",
+    "tools": "AWS WebServices, GitHub, GitLab, BitBucket, PostMan, IntelliJ, Dbeaver, Jenkins, Kubernetes, Google Colab",
     "programmingSkills": "Design Patterns, Code Smells, Web Development, OOP's, DSA, Git, Kubernetes, Microservices, Back-End Web Development, Relational Databases, Java, Spring Boot, MySQL, RESTful WebServices, gRPC, System Testing, Deployment"
   },
   "keyCourses": {

@@ -2,13 +2,15 @@
 "use client"
 
 import Navbar from "./components/navbar/Navbar";
-import Footer from "./components/Footer";
 import TableOfContents from "./components/TableOfContents";
-import AboutMe from "./components/AboutMe";
-import Education from "./components/Education";
+import AboutMe from "./components/aboutme/AboutMe";
+import Companies from "./components/companies/Companies";
+import Education from "./components/education/Education";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import TechnicalSkills from "./components/TechnicalSkills";
+import Footer from "./components/Footer";
+
 import resumeData from "./config/resumeData.json";
 import { disableInspect } from "./utils/disable-inspect";
 import { useEffect } from "react";
@@ -35,6 +37,7 @@ export default function Home() {
           personalInfo={resumeData.personalInfo}
         />
         <Education education={resumeData.education} />
+        {/* <Companies comapnies={resumeData.companies} /> */}
         <Experience experience={resumeData.experience} />
         <Projects projects={resumeData.projects} />
         <TechnicalSkills skills={resumeData.technicalSkills} />

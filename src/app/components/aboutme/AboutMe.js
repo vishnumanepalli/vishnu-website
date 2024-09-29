@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import "./AboutMe.css";
-import SectionTitle from "./section/SectionTitle";
+import "./style.css";
+import SectionTitle from "../section/SectionTitle";
 
 export default function AboutMe({ about, personalInfo }) {
 

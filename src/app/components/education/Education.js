@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import SectionTitle from "./section/SectionTitle";
+import SectionTitle from "../section/SectionTitle";
 
 const EducationImage = ({ image, alt }) => {
   return <Image src={image} alt={alt} width={100} height={100} className="object-contain" />;
