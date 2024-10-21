@@ -1,16 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import "./style.css";
 import SectionTitle from "../section/SectionTitle";
 
 export default function AboutMe({ about, personalInfo }) {
-
   return (
-    <section id="about" className="about-section">
+    <section id="about" className="py-8">
       <SectionTitle title="About Me" id="about" />
-      <div className="about-content">
-        <div className="about-image">
-          <div className="image-wrapper">
+      <div className="flex mb-6 gap-6">
+        <div className="w-1/4 mr-4">
+          <div className="relative w-full aspect-square rounded-lg overflow-hidden">
             <Image
               src={about.image}
               alt="Profile Picture"
@@ -19,10 +17,10 @@ export default function AboutMe({ about, personalInfo }) {
             />
           </div>
         </div>
-        <div className="about-details">
-          <p className="about-description">{about.description}</p>
+        <div className="w-3/4">
+          <p className="mb-4">{about.description}</p>
           <div>
-            <h3 className="interests-title">Interests & Skills</h3>
+            <h3 className="font-semibold mb-2">Interests & Skills</h3>
             <p>Interests: {about.interests}</p>
             <p>Skills: {about.skills}</p>
             <p>Languages: {about.languages}</p>
@@ -30,10 +28,10 @@ export default function AboutMe({ about, personalInfo }) {
           </div>
         </div>
       </div>
-      <div className="contact-info">
-        <h3 className="contact-title">Contact Information</h3>
-        <div className="grid-container">
-          <div className="personal-info">
+      <div className="w-full">
+        <h3 className="font-bold mb-2">Contact Information</h3>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <div>
             <p>
               <strong>Full Name: </strong>
               {personalInfo.name}
@@ -51,21 +49,33 @@ export default function AboutMe({ about, personalInfo }) {
               {about.residence}
             </p>
           </div>
-          <div className="connect-info">
-            <h4 className="connect-title">
+          <div>
+            <h4 className="font-medium mb-1">
               <strong>Connect with me:</strong>
             </h4>
             <div className="flex flex-wrap gap-4">
-              <a href={personalInfo.github} className="social-link">
+              <a
+                href={personalInfo.github}
+                className="text-blue-600 underline transition-colors duration-200 hover:text-blue-700"
+              >
                 GitHub
               </a>
-              <a href={personalInfo.website} className="social-link">
+              <a
+                href={personalInfo.website}
+                className="text-blue-600 underline transition-colors duration-200 hover:text-blue-700"
+              >
                 Website
               </a>
-              <a href={personalInfo.linkedin} className="social-link">
+              <a
+                href={personalInfo.linkedin}
+                className="text-blue-600 underline transition-colors duration-200 hover:text-blue-700"
+              >
                 LinkedIn
               </a>
-              <a href={about.resume_link} className="social-link">
+              <a
+                href={about.resume_link}
+                className="text-blue-600 underline transition-colors duration-200 hover:text-blue-700"
+              >
                 Resume
               </a>
             </div>

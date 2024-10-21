@@ -1,8 +1,5 @@
-"use client";
-
 import { useState } from "react";
 import Link from "next/link";
-import { handleSmoothScroll } from "@/app/utils/utils";
 
 const menuItems = [
   { href: "/", label: "Home" },
@@ -14,16 +11,9 @@ const menuItems = [
 ];
 
 const MenuItem = ({ href, label }) => {
-  const isHashLink = href.startsWith("/#");
-  const targetId = isHashLink ? href.split("#")[1] : null;
-
   return (
     <li>
-      <Link
-        href={href}
-        className="text-white hover:text-gray-300"
-        onClick={isHashLink ? handleSmoothScroll(targetId) : undefined} // Pass target ID for internal links
-      >
+      <Link href={href} className="text-white hover:text-gray-300">
         {label}
       </Link>
     </li>

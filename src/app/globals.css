@@ -9,6 +9,11 @@
   --secondary-color: #2c3e50;
   --text-color: #333;
   --background-color: #f4f4f4;
+  --navbar-height: 4.5rem;
+}
+
+html {
+  scroll-padding-top: var(--navbar-height);
 }
 
 body {
